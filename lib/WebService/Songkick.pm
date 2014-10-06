@@ -124,37 +124,36 @@ These methods usage: L<http://www.songkick.com/developer/>
 
 =head3 artists_calendar
 
-my $data = $songkick->artists_calendar(331163);
-
-$data = $songkick->artists_calendar('mbid:65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab');
+    my $data = $songkick->artists_calendar(331163);
+    $data = $songkick->artists_calendar('mbid:65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab');
 
 =head3 venues_calendar
 
-my $data = $songkick->venues_calendar(6239);
+    my $data = $songkick->venues_calendar(6239);
 
 =head3 metro_areas_calendar
 
-my $data = $songkick->metro_areas_calendar(30717);
+    my $data = $songkick->metro_areas_calendar(30717);
 
 =head3 users_calendar
 
-my $data = $songkick->users_calendar('hondallica', reason => 'tracked_artist');
+    my $data = $songkick->users_calendar('hondallica', reason => 'tracked_artist');
 
 =head3 events
 
-my $data = $songkick->events(artist_name => 'Metallica');
+    my $data = $songkick->events(artist_name => 'Metallica');
 
 =head3 search_artists
 
-my $data = $songkick->search_artists(query => 'Metallica');
+    my $data = $songkick->search_artists(query => 'Metallica');
 
 =head3 search_venues
 
-my $data = $songkick->search_venues(query => 'Tokyo');
+    my $data = $songkick->search_venues(query => 'Tokyo');
 
 =head3 search_locations
 
-my $data = $songkick->search_locations(query => 'Tokyo');
+    my $data = $songkick->search_locations(query => 'Tokyo');
 
 =head1 SEE ALSO
 
