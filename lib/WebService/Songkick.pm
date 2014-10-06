@@ -125,6 +125,7 @@ These methods usage: L<http://www.songkick.com/developer/>
 =head3 artists_calendar
 
 my $data = $songkick->artists_calendar(331163);
+
 $data = $songkick->artists_calendar('mbid:65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab');
 
 =head3 venues_calendar
