@@ -10,7 +10,7 @@ WebService::Songkick - A simple and fast interface to the Songkick API
 
 # DESCRIPTION
 
-The module provides a simple interface to the Songkick API. To use this module, you must first sign up at http://www.songkick.com/developer/ to receive an API key.
+The module provides a simple interface to the Songkick API. To use this module, you must first sign up at [http://www.songkick.com/developer/](http://www.songkick.com/developer/) to receive an API key.
 
 # METHODS
 
@@ -51,7 +51,7 @@ These methods usage: [http://www.songkick.com/developer/](http://www.songkick.co
 
 # SEE ALSO
 
-http://www.songkick.com/developer/
+[http://www.songkick.com/developer/](http://www.songkick.com/developer/)
 
 # LICENSE
 
